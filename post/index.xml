@@ -21,12 +21,16 @@
     </item>
     
     <item>
-      <title>Blog</title>
+      <title>如何利用hugo搭建简单的静态博客</title>
       <link>https://solakulo.github.io/post/blog/</link>
       <pubDate>Thu, 25 Jul 2019 09:30:58 +0900</pubDate>
       
       <guid>https://solakulo.github.io/post/blog/</guid>
-      <description>hello</description>
+      <description>#如何利用hugo搭建简单的静态博客
+这篇文章是参照了B站UP主CodeSheep的视频经过修改而来（视频中是mac，我这边是win10系统）
+手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo
+##第一步
+去git官网下载git(自己选择对应的版本)</description>
     </item>
     
   </channel>
