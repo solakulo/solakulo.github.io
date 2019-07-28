@@ -6,35 +6,10 @@
     <description>Recent content on solakulo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jul 2019 10:21:41 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2019 09:30:58 +0900</lastBuildDate>
     
 	<atom:link href="https://solakulo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Blog2</title>
-      <link>https://solakulo.github.io/post/blog2/</link>
-      <pubDate>Thu, 25 Jul 2019 10:21:41 +0900</pubDate>
-      
-      <guid>https://solakulo.github.io/post/blog2/</guid>
-      <description>2</description>
-    </item>
-    
-    <item>
-      <title>如何利用hugo搭建简单的静态博客</title>
-      <link>https://solakulo.github.io/post/blog/</link>
-      <pubDate>Thu, 25 Jul 2019 09:30:58 +0900</pubDate>
-      
-      <guid>https://solakulo.github.io/post/blog/</guid>
-      <description>#如何利用hugo搭建简单的静态博客
-这篇文章是参照了B站UP主CodeSheep的视频经过修改而来（视频中是mac，我这边是win10系统）
-手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo
-##第一步
-去git官网下载git(自己选择对应的版本)
-正常情况应该会直接打开就自动下载了
-下载下来如下图 双击打开，安装 选择安装在哪，最好记一下安装的地址，后面会用到 基本上都是直接下一步，不懂的话也就不要乱改比较好 继续 继续 继续 继续 继续 开始安装啦 安装完毕 然后把前面记住的安装地址打开 )
-准备修改环境变量，让git可以直接在cmd命令行下使用 在控制面板→系统和安全→系统中点击左边的高级系统设置 如图 打开环境变量 找到上面用户变量的Path，然后点击编辑 然后添加上bin的地址和git-core的地址，之后确定保存就行 最后打开命令提示符，输git version有类似结果应该就是可以了</description>
-    </item>
     
     <item>
       <title>如何利用hugo搭建简单的静态博客</title>
@@ -42,11 +17,9 @@
       <pubDate>Thu, 25 Jul 2019 09:30:58 +0900</pubDate>
       
       <guid>https://solakulo.github.io/post/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2win10%E5%B0%8F%E7%99%BD%E4%B8%93%E7%94%A8/</guid>
-      <description>#如何利用hugo搭建简单的静态博客
-这篇文章是参照了B站UP主CodeSheep的视频经过修改而来（视频中是mac，我这边是win10系统）
+      <description>如何利用hugo搭建简单的静态博客 这篇文章是参照了B站UP主CodeSheep的视频经过修改而来（视频中是mac，我这边是win10系统）
 手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo
-##第一步
-去git官网下载git(自己选择对应的版本)
+第一步 去git官网下载git(自己选择对应的版本)
 正常情况应该会直接打开就自动下载了
 下载下来如下图
 双击打开，安装
