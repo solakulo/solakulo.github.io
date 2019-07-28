@@ -14,7 +14,8 @@
 <meta name="twitter:title" content="如何利用hugo搭建简单的静态博客"/>
 <meta name="twitter:description" content="如何利用hugo搭建简单的静态博客 这篇文章是参照了B站UP主CodeSheep的视频经过修改而来（视频中是mac，我这边是win10系统）
 手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo
-第一步 去git官网下载git(自己选择对应的版本)
+第一步 安装git
+去git官网下载git(自己选择对应的版本)
 正常情况应该会直接打开就自动下载了
 下载下来如下图
 双击打开，安装
@@ -34,12 +35,28 @@
 打开环境变量
 找到上面用户变量的Path，然后点击编辑
 然后添加上bin的地址和git-core的地址，之后确定保存就行
-最后打开命令提示符，输git version有类似结果应该就是可以了"/>
+最后打开命令提示符，输git version有类似结果应该就是可以了
+##第二步 安装go语言
+去go语言官网下载对应的版本
+正常安装完之后，一般应该会在C:\Go这个目录下
+正常情况下环境之类会自动给配置好
+可以在cmd里面确认一下go version
+有类似这样的提示应该就没问题了
+##第三步
+安装hugo
+去下载hugo找对应的版本
+下载下来后解压，之后记得文件夹改个名字，改成hugo
+然后找个位置存放，比如我是C:\Program Files\hugo这样的
+然后去构筑hugo的环境，在Path中添加
+然后打开cmd确认是否成功
+hugo version有类似提示应该就可以了
+到此，前期准备就完工啦，下面开始构筑博客"/>
 
     <meta property="og:title" content="如何利用hugo搭建简单的静态博客" />
 <meta property="og:description" content="如何利用hugo搭建简单的静态博客 这篇文章是参照了B站UP主CodeSheep的视频经过修改而来（视频中是mac，我这边是win10系统）
 手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo
-第一步 去git官网下载git(自己选择对应的版本)
+第一步 安装git
+去git官网下载git(自己选择对应的版本)
 正常情况应该会直接打开就自动下载了
 下载下来如下图
 双击打开，安装
@@ -59,7 +76,22 @@
 打开环境变量
 找到上面用户变量的Path，然后点击编辑
 然后添加上bin的地址和git-core的地址，之后确定保存就行
-最后打开命令提示符，输git version有类似结果应该就是可以了" />
+最后打开命令提示符，输git version有类似结果应该就是可以了
+##第二步 安装go语言
+去go语言官网下载对应的版本
+正常安装完之后，一般应该会在C:\Go这个目录下
+正常情况下环境之类会自动给配置好
+可以在cmd里面确认一下go version
+有类似这样的提示应该就没问题了
+##第三步
+安装hugo
+去下载hugo找对应的版本
+下载下来后解压，之后记得文件夹改个名字，改成hugo
+然后找个位置存放，比如我是C:\Program Files\hugo这样的
+然后去构筑hugo的环境，在Path中添加
+然后打开cmd确认是否成功
+hugo version有类似提示应该就可以了
+到此，前期准备就完工啦，下面开始构筑博客" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://solakulo.github.io/post/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2win10%E5%B0%8F%E7%99%BD%E4%B8%93%E7%94%A8/" />
 <meta property="article:published_time" content="2019-07-25T09:30:58&#43;09:00"/>
@@ -122,7 +154,8 @@
 
 <h2 id="第一步">第一步</h2>
 
-<p>去<a href="https://git-scm.com/downloads">git官网</a>下载git(自己选择对应的版本)<br />
+<p>安装git<br />
+去<a href="https://git-scm.com/downloads">git官网</a>下载git(自己选择对应的版本)<br />
 <img src="https://raw.githubusercontent.com/solakulo/solakulo.github.io/master/post/img/blog/git1.png" alt="1" /><br />
 正常情况应该会直接打开就自动下载了<br />
 <img src="https://raw.githubusercontent.com/solakulo/solakulo.github.io/master/post/img/blog/git2.png" alt="2" /><br />
@@ -163,7 +196,28 @@
 然后添加上bin的地址和git-core的地址，之后确定保存就行<br />
 <img src="https://raw.githubusercontent.com/solakulo/solakulo.github.io/master/post/img/blog/git20.png" alt="20" /><br />
 最后打开命令提示符，输<code>git version</code>有类似结果应该就是可以了<br />
-<img src="https://raw.githubusercontent.com/solakulo/solakulo.github.io/master/post/img/blog/git21.png" alt="21" /></p>
+<img src="https://raw.githubusercontent.com/solakulo/solakulo.github.io/master/post/img/blog/git21.png" alt="21" /><br />
+##第二步
+安装go语言<br />
+去<a href="https://golang.org/dl/">go语言官网</a>下载对应的版本<br />
+<img src="https://raw.githubusercontent.com/solakulo/solakulo.github.io/master/post/img/blog/go1.png" alt="22" /><br />
+正常安装完之后，一般应该会在C:\Go这个目录下<br />
+正常情况下环境之类会自动给配置好<br />
+可以在cmd里面确认一下<code>go version</code><br />
+有类似这样的提示应该就没问题了<br />
+<img src="https://raw.githubusercontent.com/solakulo/solakulo.github.io/master/post/img/blog/go2.png" alt="23" /><br />
+##第三步<br />
+安装hugo<br />
+去<a href="https://github.com/gohugoio/hugo/releases">下载hugo</a>找对应的版本<br />
+<img src="https://raw.githubusercontent.com/solakulo/solakulo.github.io/master/post/img/blog/go3.png" alt="24" /><br />
+下载下来后解压，之后记得文件夹改个名字，改成hugo<br />
+然后找个位置存放，比如我是C:\Program Files\hugo这样的<br />
+然后去构筑hugo的环境，在Path中添加<br />
+<img src="https://raw.githubusercontent.com/solakulo/solakulo.github.io/master/post/img/blog/go4.png" alt="25" /><br />
+然后打开cmd确认是否成功<br />
+<code>hugo version</code>有类似提示应该就可以了<br />
+<img src="https://raw.githubusercontent.com/solakulo/solakulo.github.io/master/post/img/blog/go5.png" alt="26" /><br />
+到此，前期准备就完工啦，下面开始构筑博客</p>
 
     </div>
     <div class="post-footer">
